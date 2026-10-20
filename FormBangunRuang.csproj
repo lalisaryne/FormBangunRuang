@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Update="formsphere.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="formcone.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="formcylinder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="formcircle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="formcuboid.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="formcube.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="formtrapezium.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="formrectangle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="formtriangle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+
+</Project>
